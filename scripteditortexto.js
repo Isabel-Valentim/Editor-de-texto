@@ -1,17 +1,7 @@
-var texto = document.getElementById('texto')
-var res = document.getElementById('resultado')
+var tex = document.getElementById('texto');
+var texto = tex.value;
+var res = document.getElementById('resultado');
 function título(){
+    res.innerHTML = texto
+}
 
-}
-function maiúscula(){
-res= texto.toUpperCase()
-}
-function minúscula(){
-
-}
-function negrito(){
-
-}
-function itálico(){
-
-}
